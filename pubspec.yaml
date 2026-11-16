@@ -1,0 +1,94 @@
+name: statefulwidget
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  translator: ^1.0.0
+  google_mlkit_text_recognition: ^0.13.1
+  #google_mlkit_text_recognition: ^0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#2563EB"
+  adaptive_icon_foreground: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/icon.png
+####
+#name: statefulwidget
+#description: A new Flutter project.
+#publish_to: 'none'
+
+#version: 1.0.0+1
+
+#environment:
+
+  #sdk: ^3.10.0
+#dependencies:
+  #flutter:
+    #sdk: flutter
+  #http: ^1.2.0
+  #firebase_messaging: ^17.0.0
+  #shared_preferences: ^2.3.2
+  
+  #image_picker: ^1.2.4
+  #translator: ^1.0.4+1
+  #google_mlkit_text_recognition: ^0.16.0
+  
+  #geolocator: ^14.1.1
+  #provider: ^6.1.2
+  #flutter_lints: ^4.0.0
+  #firebase_core: ^5.0.0
+  #firebase_auth: ^7.0.0
+  #cloud_firestore: ^7.0.0
+  #google_sign_in: ^6.2.1 #أو الإصدار المناسب لمشروعك
+  #audioplayers: ^6.0.0
+  #sqflite: ^2.3.0 
+  #path: ^1.8.3     # حزمة مساعدة لإدارة مسارات قاعدة البيانات
+  #sqflite_common_ffi_web: ^1.1.1
+  #font_awesome_flutter: ^11.0.0
+
+  
+  
+
+#dev_dependencies:
+  #flutter_test:
+    #sdk: flutter
+  
+  
+  
+#flutter:
+  #uses-material-design: true
+   #assets:
+    #- images/child.jpg
+    #- images/icon.png
+  #  - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
